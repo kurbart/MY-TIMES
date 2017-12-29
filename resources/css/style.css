@@ -1,8 +1,9 @@
-div {
-}
+div {}
+
 body {
   margin: 0;
 }
+
 header {
   display: flex;
   font-family: Verdana;
@@ -16,88 +17,109 @@ header {
   height: 80px;
   background-color: white;
 }
+
 .logo {
   display: flex;
   flex-grow: 1;
   align-items: center;
-  border: 1px solid black;
 }
+
 /* flex grow pushed the span text to the right side of the screen*/
+
 .logo img {
-margin-right: 12px;
-padding-left: 30px;
+  margin-right: 12px;
+  padding-left: 30px;
 }
+
 .logo span {
   color: MediumAquamarine;
 }
+
 header nav {
   padding-right: 40px;
 }
- nav span {
+
+nav span {
   text-align: right;
   display: inline-block;
   list-style: none;
   padding: 20px 10px;
 }
+
 a {
   color: black;
 }
+
 .content {
   display: flex;
   width: 100%;
   padding-top: 116px;
 }
+
 .content .column {
   display: flex;
   flex-direction: column;
   margin-right: 32px;
 }
+
 .stories {
   display: flex;
   justify-content: space-between;
   margin-top: 17px;
 }
+
 .story {
   font-family: Georgia;
   font-size: 17px;
   color: black;
   width: 350px;
 }
+
 .column .large {
   width: 630px;
 }
-.fall-cancelled .image-content{
+
+.fall-cancelled.image-content {
   background-image: url('../../resources/img-story-2.png');
 }
-.pop-culture .image-content{
+
+.pop-culture.image-content {
   background-image: url('../../resources/img-story-3.png');
 }
+
 .column .medium {
   width: 300px;
 }
-.cat-ceo .image-content{
+
+.cat-ceo.image-content {
   background-image: url('../../resources/img-story-1.png');
 }
+
 .column .small {
   width: 240px;
 }
+
 .new-bites h3 {
   text-align: center;
 }
+
 .new-bites .bite {
   padding: 11px 20px;
   background-color: WhiteSmoke;
   border-bottom: 1px solid black;
-  display:block;
+  display: block;
   color: DimGray;
   font-size: 12px;
   font-family: Verdana;
 }
 
 .lead-story .image-content {
-  width: 630px;
+  /*width: 630px;*/
   background-image: url('../../resources/img-story-main.png');
+  text-align: left;
+  font-size: 40px;
 }
+
 .image-content {
   display: flex;
   flex-direction: column;
@@ -109,10 +131,36 @@ a {
   font-size: 30px;
   color: white;
   text-align: center;
+  background-size: cover;
+}
+
+footer .title {
+  display: inline-block;
+  padding-right: 25px;
+  border-right: 2px solid white;
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
 }
 .title {
-  color: white;
-  border-color: white;
-  border-right:
 
+}
+.info {}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 325px;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+}
+footer nav {
+  display: inline-block;
+  padding-left: 25px;
 }
